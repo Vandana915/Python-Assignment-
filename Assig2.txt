@@ -1,0 +1,67 @@
+Assignment-2:Python Basics
+
+1. Write a python script to add comments and print “Learning Python” on screen.
+ANS:#write a program to print "Learning Python"
+print("Learning Python")
+
+2. Write a python script to add multi line comments and print values of four variables, each in a new line. Variable contains any values.
+ANS:"""Here four variables we use
+    where name="vini"
+    age=25
+    salay=100.00
+    domin="python" """
+name="vini"
+age=25
+salay=100.00
+domin="python"
+print(name,age,salay,domin,sep="\n")
+
+3. Write a python script to print types of variables. Create 5 variables each of them containing different types of data. (like 35, True, “MySirG”,5.46, 3+4j, etc)
+ANS:a=15
+b=False
+c="vini"
+d=5.00
+e=7+9j
+print(type(a),type(b),type(c),type(d),type(e))
+
+4. Write a python script to print the id of two variables containing the same integer values.
+ANS:a=10
+b=10
+print(id(a),id(b),sep="\n")
+
+5. Create four variables in a Python script and assign values of different data types to
+them. Write a Python script to print value, its type and id of each variable
+ANS:a=10
+b=10+20j
+c="python"
+d=True 
+print(a,b,c,d)
+print(type(a),type(b),type(c),type(d))
+print(id(a),id(b),id(c),id(d))
+
+6. Write a python script to print all the keywords
+ANS:import keyword
+print(keyword.kwlist)
+
+7. On Python shell use help() function and display the list of keywords
+ANS:First we write help() .then help> shell will open. help>keywords we write then we will get all the keywords
+
+8. Create two Python files A0.py and A1.py. Create a variable in A1.py and assign some value to it.
+Write a python script to import A1 module in A0 and print value of the variable created in A0.py
+ANS:Firstly we create two files one is A0.py and second one is A1.py.
+In A1 file assign a=10 and save it. then in A0 file we have to import a=10 value 
+So we have to write import A1 and print(A1.a) then o/p will be display. 
+
+9. Name the keywords, used as data in the Python script.
+ANS:False,True,None
+
+10. Write a python script to display the current date and time. First create variables to
+store date and time, then display date and time in proper format (like: 13-8-2022 and9:00 PM)
+ANS:import datetime
+cd=datetime.datetime.now()
+print(cd)
+or
+from datetime import datetime
+dt=datetime.today()
+print(dt)
+d1=dt.strftime("%d-%m-%Y and %I:%M:%p")
