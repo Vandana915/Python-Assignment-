@@ -1,0 +1,48 @@
+Assignment-1:Warm-up with python
+
+1. Write a command to get the Python version you are using.
+ANS:python -V
+python --version
+ or 
+import sys
+print(sys.version)
+
+2. Write a python script to print Hello Python on the screen directly in the command line.
+ANS:print("Hello Python")
+
+3. Write a python script and store it in a file and execute the file from the command line.
+ANS:First we have to create file in notepad or IDLE,then write a code and save this file,then open cmd,then in cmd write python filename.py 
+
+4. Write a python script to print Hello Python on the screen using visual studio code.
+ANS:write a code in vs code and save it then open vs code terminal then run it.
+
+5. Write a python script to print Hello on the first line and Python on the second line
+ANS:print("Hello","python",sep="\n")
+OR
+print("Hello")
+print("python")
+
+6. Write a python script to print “MySirG” on the screen
+ANS:print(''' "MySirG" ''')
+print("\"MySirG\"")
+
+7. Write a python script to print “Teacher’s Day” on the screen
+ANS:print(''' "Teacher's Day" ''')
+
+8. Write a python script to print the value of a variable. Variable contains your name as
+data.
+ANS:a="vini"
+print(a)
+
+9. Write a python script to create variables to store your name, age, qualification, years
+of experience and print it.
+ANS:name="vini"
+age=26
+qualification="MCA"
+exp=0.3
+print(name,age,qualification,exp)
+
+10. Write a python script to print values of three variables, each in a new line. Variable
+contains integer values
+ANS:a,b,c=10,20,30
+print(a,b,c,sep='\n')
