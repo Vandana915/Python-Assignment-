@@ -1,0 +1,51 @@
+Assignment-3: Type Conversion
+
+1. Write a python script to convert a number into str type.
+ANS:x=10
+x=str(10)
+print(x)
+print(type(x)) or 
+
+x=10
+print(type(str(x)))
+
+2. Write a python script to print Unicode of the character ‘m’
+ANS:x='m'
+print(ord(x))----->109
+or
+print(ord('m'))
+
+3. Write a python script to print character representation of a given unicode 100.
+ANS:y=100
+print(chr(100))---->d
+
+4. Write a python script to print any number and its binary equivalent
+ANS:n=int(input("Enter the number:"))
+print(bin(n))
+
+5. Write a python script to print any number and its octal equivalent.
+ANS:n=int(input("Enter the number:"))
+print(oct(n))
+
+6. Write a python script to print any number and its hexadecimal equivalent.
+ANS:n=int(input("Enter the number:"))
+print(hex(n))
+
+7. Write a python script to store binary number 1100101 in a variable and print it in
+decimal format.
+ANS:a=0b1100101
+print(a)---->101
+
+8. Write a python script to store a hexadecimal number 2F in a variable and print it in
+octal format.
+ANS:a=0x2F
+print(oct(a))---->0o57
+
+9. Write a python script to store an octal number 125 in a variable and print it in binary
+format.
+ANS:a=0o125
+print(bin(a))---->0b1010101 
+
+10. Write a python script to add two numbers 25 (in octal) and 39 (in hexadecimal) and
+display the result in binary format.
+ANS:print(bin(0o25)+bin(ox39))
