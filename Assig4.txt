@@ -1,0 +1,57 @@
+Assignment - 4 User Input Problems
+
+1. Write a python script to take your name as input from the user and then print it.
+ANS:#take input from user
+a=input("Enter your name:")
+print(a)
+
+2. Write a python script to take input from the user. Input must be a number.
+ANS:a=int(input("Enter number:"))
+print(a)
+
+3. Write a python script which takes two numbers from the user, then calculate their sum
+and display the result.
+ANS:x=int(input("enter the first number:"))
+y=int(input("enter the second number:"))
+print("sum is:",(x+y))
+
+4. Write a python script which takes the radius from the user and display area of a circle.
+ANS:r=eval(input("Enter the radius:"))
+pi=3.14
+area=pi*r**2
+print("Area of circle is:",area)
+
+5. Write a python script to calculate the square of a number. Number is entered by the user.
+ANS:x=int(input("Enter the number:"))
+print(x**2)
+
+6. Write a python script to calculate the area of Triangle. Number is entered by the user.
+h=int(input("Enter the height:"))
+b=int(input("Enter the base:"))
+print("Area of triangle is:",1/2*h*b)
+
+7. Write a python script to calculate average of three numbers, entered by the user
+ANS:x=int(input("Enter the first number:"))
+y=int(input("Enter the second number:"))
+z=int(input("Enter the third number:"))
+avg=x+y+z/3
+print("Average of three number:",avg)
+
+8. Write a python script to calculate simple interest
+ANS:x=eval(input("Enter the Amount"))
+y=eval(input("Enter the rate"))
+z=eval(input("Enter the time"))
+si=x*y*z/100
+print("simple interest is:",si)
+
+9. Write a python script to calculate the volume of a cuboid.
+ANS:l=eval(input("Enter the length:"))
+b=eval(input("Enter the breadth:"))
+h=eval(input("Enter the height:"))
+volume=l*b*h
+print("Volume of a cubiod:",volume)
+
+10. Write a python script to calculate area of a rectangle
+ANS:l=eval(input("Enter the length:"))
+b=eval(input("Enter the breadth:"))
+print("Area of a rectangle:",(l*b))
